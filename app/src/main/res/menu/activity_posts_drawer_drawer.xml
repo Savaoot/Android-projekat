@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_create"
+            android:id="@+id/nav_create"
+            android:title="Create" />
+        <item
+            android:icon="@drawable/ic_read"
+            android:id="@+id/nav_read"
+            android:title="Read" />
+        <item
+            android:icon="@drawable/ic_posts"
+            android:id="@+id/nav_posts"
+            android:title="Posts" />
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:icon="@drawable/ic_logout"
+                android:id="@+id/nav_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
